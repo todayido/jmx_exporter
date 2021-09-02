@@ -1,7 +1,7 @@
 ---
 hostPort: localhost:5555
 username: 
-password: 
+password:
 
 rules:
 - pattern: ".*"

@@ -29,5 +29,6 @@ public class WebServer {
      new BuildInfoCollector().register();
      new JmxCollector(new File(args[1])).register();
      new HTTPServer(socket, CollectorRegistry.defaultRegistry);
+     System.out.println("启动成功，参数为：args" + args[0] + " " + args[1]);
    }
 }

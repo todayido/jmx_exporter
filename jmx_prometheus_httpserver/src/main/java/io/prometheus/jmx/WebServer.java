@@ -6,6 +6,9 @@ import java.net.InetSocketAddress;
 import io.prometheus.client.CollectorRegistry;
 import io.prometheus.client.exporter.HTTPServer;
 
+/**
+ *  this a http server, you must set params
+ */
 public class WebServer {
 
    public static void main(String[] args) throws Exception {

@@ -45,7 +45,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <prometheus.simpleclient.version>0.11.0</prometheus.simpleclient.version>
+    <prometheus.simpleclient.version>0.16.0</prometheus.simpleclient.version>
   </properties>
 
   <distributionManagement>
@@ -79,7 +79,7 @@
     </dependencies>
   </dependencyManagement>
 
-  <build>
+    <build>
     <pluginManagement>
       <plugins>
         <!-- Add plugin versions for reproducible builds. Versions for default bindings are taken from -->
